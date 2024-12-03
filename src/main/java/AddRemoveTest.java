@@ -28,7 +28,7 @@ public class AddRemoveTest {
         driver.findElement(By.xpath("//button[.='Add Element']")).click();
        // Thread.sleep(2000);
         driver.findElement(By.xpath("//button[.='Add Element']")).click();
-       // Thread.sleep(2000);
+       // Thread.sleep(2000); что бы сделать коммит
 
         List<WebElement> elements = driver.findElements(By.xpath("//button[.='Delete']"));
         // Подсчет количества одинаковых элементов
