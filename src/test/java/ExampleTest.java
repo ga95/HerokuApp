@@ -16,6 +16,7 @@ public class ExampleTest {
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Не явное ожидание
     }
+
     @Test
     public void checkAddRemoveElemetnts(){
         driver.get("https://the-internet.herokuapp.com/");

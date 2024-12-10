@@ -46,7 +46,7 @@ public class InputsTest{
 
         num_field.clear();
 
-        //Проверка #3 вводим значение и опускаем его при помощи кнопок
+        // Проверка #3 вводим значение и опускаем его при помощи кнопок
         for (int i = 0; i < 10; i++) {
             num_field.sendKeys(Keys.ARROW_DOWN);
         }

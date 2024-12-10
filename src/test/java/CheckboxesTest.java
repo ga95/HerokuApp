@@ -37,7 +37,7 @@ public class CheckboxesTest {
             checkbox.click();
 
             if (checkbox.isSelected()) {
-                //Проверяем, что чекбокс кликнут
+                // Проверяем, что чекбокс кликнут
                 Assert.assertTrue(checkbox.isSelected ());
                                        }
             else {

@@ -26,9 +26,9 @@ public class AddRemoveTest {
         driver.get("https://the-internet.herokuapp.com/");
         //открыть странцу с заданием
         driver.findElement(By.xpath("//a[.='Add/Remove Elements']")).click();
-        //нажать на кнопку добавить элемент
+        // нажать на кнопку добавить элемент
         driver.findElement(By.xpath("//button[.='Add Element']")).click();
-        //нажать на кнопку добавить элемент
+        // нажать на кнопку добавить элемент
         driver.findElement(By.xpath("//button[.='Add Element']")).click();
         //найти все кнопки удалить
         List<WebElement> elements = driver.findElements(By.xpath("//button[.='Delete']"));
